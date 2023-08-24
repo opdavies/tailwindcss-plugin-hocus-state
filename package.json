@@ -4,8 +4,12 @@
   "description": "Adds a hocus state for Tailwind CSS for easily adding styles for hover and focus states.",
   "main": "src/index.js",
   "scripts": {
+    "build": "tailwindcss --output dist/tailwind.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Oliver Davies",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
 }
