@@ -9,6 +9,9 @@
   },
   "author": "Oliver Davies",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "tailwindcss": "^3.3.3"
   }
